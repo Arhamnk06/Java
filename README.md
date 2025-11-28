@@ -27,3 +27,17 @@ Reorders the contents of the given array in place by finding maximal strictly in
 
 Builds a new string by applying repeated prefix reversals. At step i, the method reverses the first i characters of the current string. StringBuilder is used to perform efficient mutable reversals before converting back to a string. This process continues until the full string has been reversed on the final pass.
 
+7: reverseVowels(String text)
+
+A method that returns a new string where all vowels are reversed.
+Only aeiouAEIOU count as vowels.
+The tricky part is keeping the capitalization of the vowel that originally sat in that position.
+
+8: Polynomial class
+
+An immutable class that stores polynomial coefficients in an array.
+It trims leading zeros, handles the zero polynomial properly, and supports:
+	•	getDegree()
+	•	getCoefficient(int k)
+	•	Defensive copying of the input array
+
