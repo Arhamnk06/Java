@@ -41,3 +41,7 @@ It trims leading zeros, handles the zero polynomial properly, and supports:
 	•	getCoefficient(int k)
 	•	Defensive copying of the input array
 
+9: Polynomial Multiplication and Comparison (Java)
+
+This update adds three new features to the Polynomial class. The multiply method builds a new polynomial representing the product of two polynomials, with the result sized based on the sum of the degrees. Internal terms may cancel out, but the highest-degree term never does. The equals method checks whether another object is a Polynomial with the same degree and identical coefficients. The class now also implements compareTo, which orders polynomials by degree first. If the degrees match, it compares coefficients starting from the highest order term and decides which polynomial is greater. These changes keep the class immutable and consistent with Java’s Comparable interface.
+
