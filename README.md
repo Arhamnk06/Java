@@ -52,3 +52,16 @@ This update adds three new features to the Polynomial class. The multiply method
 12: Swing & 2D Shapes
 
 This lab focuses on building an interactive Swing component that reacts to mouse movement. The task is to complete the Head class so that each head is a 500×500 JPanel that draws a simple cartoon face. A MouseListener is added in the constructor, and the eyes should open when the mouse is inside the component and close when the mouse leaves it. The paintComponent method handles all drawing using shapes like ovals and rectangles. Running HeadMain shows four separate Head components in a 2×2 grid, each responding independently as you move the cursor across them. The final submission is the completed Head.java, and all debugging prints must be removed.
+
+13: Working With Exceptions
+
+This lab shows how to check for invalid input and signal errors using exceptions.
+divideNumbers handles division edge cases.
+convertCelsiusToFahrenheit checks if the value is a number and above absolute zero.
+A custom InvalidTemperatureException is used when the temperature is physically impossible.
+
+14: Working With Files
+
+file_slice reads a file into memory and returns only the requested lines, while validating the range.
+rev_rev_file reads a file, reverses the order of the lines and the characters, writes the result to another file, and always returns the reversed text.
+The methods show how to safely open files, handle read/write errors, and process text line by line.
