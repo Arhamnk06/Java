@@ -65,3 +65,27 @@ A custom InvalidTemperatureException is used when the temperature is physically 
 file_slice reads a file into memory and returns only the requested lines, while validating the range.
 rev_rev_file reads a file, reverses the order of the lines and the characters, writes the result to another file, and always returns the reversed text.
 The methods show how to safely open files, handle read/write errors, and process text line by line.
+
+15: Square Class (Java)
+
+This project implements a Square class that extends the Rectangle class. A square is treated as a special type of rectangle where the width and height are always the same. The bottom-left corner is given by (x, y) and the side length is passed to the superclass constructor.
+
+16: Problem 1 – Run-Length Encoding (RLE)
+
+This class contains a method that compresses a string using basic run-length encoding. The goal is to replace each group of repeated characters with the number of occurrences followed by the character itself.
+
+17: sumDigits(int number)
+Takes a non-negative integer and returns the sum of all its digits.
+
+18:digitRoot(int number)
+
+Returns the number of steps needed to reduce a positive integer to a single digit by repeatedly summing its digits.
+
+19: countRowSumBigger(int[][] rows, int value)
+
+The method goes through each row, adds up all the numbers in that row, and counts how many of those row sums are bigger than the provided value.
+
+20: Rectangle Class (Java)
+
+This project implements a basic Rectangle class that stores a rectangle’s position and dimensions. The bottom-left corner is represented by (x, y), and each rectangle has a width and height. The class includes methods for area, perimeter, translation, comparison, and formatted output.
+
